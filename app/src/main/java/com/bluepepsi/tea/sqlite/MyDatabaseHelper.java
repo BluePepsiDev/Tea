@@ -12,6 +12,10 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+        // 创建表SQL
+        // PRIMARY KEY 主键
+        // AUTOINCREMENT 自动增长
+        // UNIQUE 唯一性约束
         String sql = "CREATE TABLE t_user (_id integer PRIMARY KEY AUTOINCREMENT, _name text UNIQUE)";
         db.execSQL(sql);
     }
