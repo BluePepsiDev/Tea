@@ -11,7 +11,7 @@
     
 {
       "name": "live",
-      "url": "https://agit.ai/guot54/ygbh/raw/branch/master/zB/pro.txt",
+      "url": "https://raw.githubusercontent.com/BluePepsiDev/Tea/master/%F0%9F%9A%80%E5%AE%9D%E7%9B%92live",
       "type": 0,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
